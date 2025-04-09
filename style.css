@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px 0px;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+    height: 420px;
+    width: 450px;
+    color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #2f3640;
+    font-family: arial , helvetica , sans-serif;
+    margin-top: 12rem;
+    margin-left: 40%;
+}
+.container p{
+    font-size: 1.10rem;
+}
+.container a{
+    color: aliceblue;
+}
+input{
+    width: 40px;
+    height: 40px;
+    margin: 12px 6px;
+    font-size: 28px;
+    outline: none;
+    border: 1px solid #ecf0f1;
+    border-radius: 5px;
+    text-align: center;
+    color: orange;
+    background: transparent;
+}
+button{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    width: 80px;
+    
+
+}
+button:hover{
+    background-color: transparent;
+    color: #fff;
+    border-radius: 2rem;
+}
+@media (max-width:440px){
+   
+.container{
+    height: 520px;
+    width: 500px;
+    padding: 10px;
+    margin-left: 0%;
+    font-size: 1.40rem;
+}
+
+.container p{
+    font-size: 1.50rem;
+    margin-top: 2rem;
+}
+input{
+    margin-top: 2rem;
+    width: 50px;
+    height: 50px;
+    margin: 14px 8px;
+    margin-top: 2rem;
+
+}
+button{
+    margin-top: 1rem;
+    font-size: 1.50rem;
+    width: 80px;
+    margin-top: 2rem;
+
+}
+}
